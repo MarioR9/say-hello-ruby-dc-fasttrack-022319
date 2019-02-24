@@ -1,7 +1,13 @@
 # Build your say_hello method here
-def say_hello
+def say_hello(name)
   puts "What is your name"
   name = gets
-  puts "Hello " + name
-  
+  if name == " "
+    puts "Hello " + name
+  else
+    puts "Hello Ruby Programmer!"
+  end
 end
+
+name = ""
+say_hello(name)
