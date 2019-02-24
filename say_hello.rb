@@ -2,9 +2,6 @@
 def say_hello(name)
   puts "What is your name"
   name = gets
-  if name == " "
-    puts "Hello " + name
-  else
-    puts "Hello Ruby Programmer!"
-  end
+  puts "Hello " + name
+  
 end
