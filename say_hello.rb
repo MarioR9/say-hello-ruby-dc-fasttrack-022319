@@ -9,5 +9,5 @@ def say_hello(name)
   end
 end
 
-name = ""
+name = " "
 say_hello(name)
